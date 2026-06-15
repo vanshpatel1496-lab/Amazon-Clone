@@ -1,4 +1,5 @@
 import ProductCard from "../components/ProductCard";
+import "./Home.css";
 import { useState, useEffect } from "react";
 function Home({ search }) {
   const [products, setProducts] = useState([]);
